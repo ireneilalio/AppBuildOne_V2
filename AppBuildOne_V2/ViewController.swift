@@ -30,22 +30,24 @@ class ViewController: UIViewController {
         
     }
     //Step 7: Add two buttons and change name on labels (each button has its own IBAction
-    //Step 8: when user presses button set text view in code to the description of the department that holds your major as well as change label to "About ACM"
-    @IBAction func acmButtonPressed(_ sender: Any) {
+ 
+    @IBAction func uhwoButtonPressed(_ sender: Any) {
+        // Step 9: When the user presses the "About UHWO" button, set it to the initial view of the app; copy and paste the same code
         
-        self.textViewOne.text="Students who chose to study creative media will receive an innovative educational experience that weaves art and design, narrative, information science, and technologies necessary for a broad range of careers in government and non-government organizations, educational institutions, technological firms and private firms and agencies."
+        self.textViewOne.text="UH West Oʻahu provides a valuable, yet affordable college experience, starting with students in Oʻahu's diverse Leeward community but extending statewide with distance learning options, including online classes. The University is fully accredited and draws its diverse faculty from across the nation."
         
-        self.firstLabel.text="About ACM"
+        self.firstLabel.text = "University of Hawaii West Oahu"
     }
     
     
-    @IBAction func uhwoButtonPressed(_ sender: Any) {
+    @IBAction func acmButtonPressed(_ sender: Any) {
         
-        // Step 9: When the user presses the "About UHWO" button, set it to the initial view of the app; copy and paste the same code
-        self.firstLabel.text="University of Hawaii West Oahu"
+        //Step 8: when user presses button set text view in code to the description of the department that holds your major as well as change label to "About ACM"
+        
+        self.firstLabel.text="About ACM"
         self.view.backgroundColor=UIColor.systemGray
         
-        self.textViewOne.text="UH West Oʻahu has been the fastest growing school of its type in the nation for the past two years, according to the Chronicle of Higher Education’s annual almanac. Enrollment surged 239 percent between 2006 and 2016, or the most by any public baccalaureate granting institution. In 2017 UH West Oʻahu led the list of fastest growing colleges."
+        self.textViewOne.text="Students who chose to study creative media will receive an innovative educational experience that weaves art and design, narrative, information science, and technologies necessary for a broad range of careers in government and non-government organizations, educational institutions, technological firms and private firms and agencies."
                 
                 
             }
